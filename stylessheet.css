@@ -1,0 +1,175 @@
+ul.navbar {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li.nav-item {
+  float: left;
+  width: 20%;
+}
+
+li.nav-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+li.nav-item a:hover {
+  color: gray;
+}
+
+body {
+  background-color: black;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.hero-image {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("white\ 911.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  color: white;
+  margin-left: 80px;
+  transform: translateY(-50px);
+  position: relative;
+  z-index: 2;
+  padding-top: 25px;
+  color: whitesmoke;
+  font-size: 18px
+}
+
+.button-87 {
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px white;
+  background-image: linear-gradient(45deg, black 0%, black 51%, white 100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+
+.stars {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 150px;
+}
+
+#star_text {
+  text-align: center;
+  color: white;
+}
+
+#service_text {
+  color: gray;
+  text-align: center;
+}
+.why_heading {
+  padding-top: 25px;
+  color:white;
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: white
+}
+
+#table_text_top {
+  color: red;
+}
+
+.table_text {
+  color: grey
+}
+
+td,th {
+  border: 1px solid gold;
+  text-align: left;
+  padding: 8px;
+}
+
+#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.pricing_text {
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.why_paragraph {
+  color: gray;
+  text-align: center;
+}
+#contact_head {
+  color: white;
+text-align: center;
+}
+#container {
+  padding-top: 45px;
+  text-align: center;
+  color: white;
+}
+#container h3 {
+  color: red
+}
+
+form label {
+color: white;
+}
+
+.form {
+  padding-left: 550px;
+}
+
+#fname1 {
+  width: 500px;
+}
+
+#fname2 {
+  width: 500px;
+  height: 100px;
+}
