@@ -4,6 +4,7 @@ ul.navbar {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 li.nav-item {
@@ -45,13 +46,20 @@ html {
 
 .hero-text {
   color: white;
-  margin-left: 80px;
+  padding-top: 30px;
   transform: translateY(-50px);
   position: relative;
   z-index: 2;
-  padding-top: 25px;
+  padding-left: 30px;
   color: whitesmoke;
-  font-size: 18px
+  font-size: 18px;
+  text-align: left;
+  
+}
+
+.logo {
+  max-width: 60%;
+  min-width: 50%;
 }
 
 .button-87 {
@@ -62,7 +70,7 @@ html {
   background-size: 200% auto;
   color: white;
   border-radius: 10px;
-  display: block;
+  display: inline-block;
   border: 0px;
   font-weight: 700;
   box-shadow: 0px 0px 14px -7px white;
@@ -71,6 +79,7 @@ html {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  text-decoration: none;
 }
 
 .button-87:hover {
@@ -97,7 +106,7 @@ html {
 }
 
 #service_text {
-  color: gray;
+  color: gainsboro;
   text-align: center;
 }
 .why_heading {
@@ -110,7 +119,8 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
-  color: white
+  color: white;
+  
 }
 
 #table_text_top {
@@ -118,11 +128,11 @@ table {
 }
 
 .table_text {
-  color: grey
+  color: gainsboro
 }
 
 td,th {
-  border: 1px solid gold;
+  border: 1px solid goldenrod;
   text-align: left;
   padding: 8px;
 }
@@ -141,7 +151,7 @@ td,th {
 }
 
 .why_paragraph {
-  color: gray;
+  color: gainsboro;
   text-align: center;
 }
 #contact_head {
@@ -161,15 +171,131 @@ form label {
 color: white;
 }
 
-.form {
-  padding-left: 550px;
-}
-
-#fname1 {
+input[type=text] {
   width: 500px;
 }
 
-#fname2 {
-  width: 500px;
+textarea {
+  width: 472px;
   height: 100px;
+}
+#thanks {
+  color: white;
+  font-size: 45px;
+  text-align: center;
+}
+.center_form {
+  text-align: center;
+}
+
+.inner_form {
+  width: 100%;
+  max-width: 530px;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 75px;
+  padding-right: 20px;
+}
+
+.inner_form input {
+  max-width: 90%;
+  box-sizing: border-box;
+}
+
+#container {
+  text-align: center;
+padding-bottom: 25px;
+}
+
+#services {
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+}
+#services p { 
+  color: gray;
+}
+.outside a {
+  color: red;
+}
+* {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.glambo {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  gap: 3%;
+  margin: 0 auto;
+}
+
+.glambo img {
+  width: 30%;
+  border: 1px solid white;
+}
+
+.gstang {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  gap: 3%;
+  margin: 0 auto;
+}
+
+.gstang img {
+  width: 30%;
+  border: 1px solid white;
+}
+
+.hawk {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  gap: 3%;
+  margin: 0 auto;
+}
+
+.hawk img {
+  width: 30%;
+  border: 1px solid white;
+}
+
+.hoods {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  gap: 3%;
+  margin: 0 auto;
+}
+
+.hoods img {
+  width: 30%;
+  border: 1px solid white;
+}
+
+.gt500 {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  gap: 3%;
+  margin: 0 auto;
+}
+
+.gt500 img {
+  width: 30%;
+  border: 1px solid white;
+}
+
+.vids {
+  padding-top: 55px;
+  min-width: 500px;
+}
+.vids h1 {
+  color: red;
+}
+
+.audi {
+  max-width: 800px;
+  min-width: 100%;
 }
