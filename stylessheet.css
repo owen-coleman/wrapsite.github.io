@@ -300,6 +300,6 @@ padding-bottom: 25px;
   min-width: 100%;
 }
 
-#email a {
-color: red;
+a:link {
+  color: red;
 }
